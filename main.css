@@ -1,0 +1,388 @@
+*{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    top: 0;
+    position: sticky;
+    background-color: #1b1f5c;
+    padding: 30px 0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 110px;
+    
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+   
+   
+}
+
+
+.Left-side, .Right-side {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap:10px ;
+   
+}
+.square-header{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.circle img {
+    background-color: #C4C4C4;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+
+}
+
+.rectangle-Personal-identification:hover{
+    transform:scale(1.05);
+}
+
+
+.check-rectangle:hover{
+    transform:scale(1.05);
+}
+
+.line {
+    background-color:#c8c9d4 ;
+    height: 10px;
+    width: 70%;
+    margin: 5px 0;
+    border-radius: 5px;
+    margin-left:30px;
+ 
+}
+.short-line {
+    background-color:#c8c9d4 ;
+    height: 10px;
+    width: 50%;
+    margin: 5px 0;
+    border-radius: 5px;
+    margin-left:30px;
+ 
+}
+.Square {
+    background-color: #C4C4C4;
+    width: 95px;
+    height: 25px;
+    margin: 0 5px;
+    border-radius: 4px;
+}
+
+.Square p{
+    color:#000;
+    padding:5px;
+}
+.Square .link{
+    display:flex ;
+    gap:4px;
+
+}
+.Square a{
+text-decoration: none;
+}
+.Square1{
+    background-color: #C4C4C4;
+    width: 350px;
+    height: 37px;
+    margin: 0 5px;
+    border-radius: 30px; 
+
+}
+.Square1 p{
+    padding:10px;
+    color:#838282;
+}
+.circle1 {
+    background-color: #C4C4C4;
+    width: 38.21px;
+    height: 37.33px;
+    border-radius: 50%;
+    display: flex; 
+}
+/*end header*/
+@media (max-width:930px){
+    .square-header{
+        display:none;
+    }
+}
+
+@media (max-width:514px){
+    .Square1{
+        width:200px;
+    }
+}
+
+main {
+    height: calc(100% - 60px);
+    background-color: #bfc0cf;
+    width:100%;
+   
+}
+
+continer {
+    display:flex ;
+   flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+}
+.center-main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row ;
+    gap:50px;
+}
+
+.Top-main{
+    display: flex;
+    flex-wrap: wrap;
+    
+   
+}
+
+.Top-main .Rectangle{
+    width: 350px;
+    height: 40px;
+    margin-top: 50px;
+    border-radius: 4px ;
+    background-color:#ddd ;
+    
+}
+.mainclass{
+    display:flex ;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap:30px;
+}
+.center-main .Personal-identification-chat{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap:30px;
+
+}
+
+.Top-main .elips{
+    width: 150px;
+    height: 40px;
+    margin-top: 50px;
+    border-radius: 30px ;
+    background-color:#ddd ;
+}
+
+.rectangle-Personal-identification{
+
+    background-color:#ddd ;
+    width: 760px;
+    height: 150px;
+    border-radius:3px ;
+    
+    
+}
+
+.circle3 img{
+    background-color: #C4C4C4;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-top: 20px;
+   
+}
+.circle3{
+    display: flex ;
+    gap:10px;
+}
+.circle3 h3{
+    margin-Top: 30px;
+}
+
+.chat .blocks{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
+.Square-chat{
+    background-color:#ddd ;
+    width: 760px;
+    height: 700px;
+    border-radius:3px ;
+
+}
+.chat .Square-chat .block1{
+    display:flex;
+    flex-direction: row;
+    gap:10px;
+    margin-right: 35px;
+
+}
+
+.chat .Square-chat .block2{
+    display:flex;
+    flex-direction: row;
+    gap:10px;
+    margin-left: 35px;
+
+}
+
+ .circle4 img{
+    background-color: #972525;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-top: 40px ;
+
+}
+
+.block1 .rectangle4{
+    background-color:#3f4261 ;
+    width:680px;
+    height: 50px;       
+    border-radius:10px ;
+    margin-top: 40px ;
+    margin-left: 40px;
+}
+.block2 .rectangle5{
+    background-color:#bfc0cf ;
+    width:680px;
+    height: 50px;
+    border-radius:10px ;
+    margin-top: 30px ;
+    margin-right: 40px;
+}
+.circle5 img{
+    background-color: #972525;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-top: 30px ;
+
+}
+.Top-main2 .elips button{
+    width: 150px;
+    height: 40px;
+    margin-top: 50px;
+    border-radius: 30px;
+    background-color:#999cb3;
+    margin-left:500px;
+    
+}
+.elips button{
+    color:#180446;
+}
+.check .check-rectangle{
+    background-color:#ddd ;
+    width:350px;
+    height: 600px;
+}
+
+.check-rectangle-block{
+    display:flex;
+    flex-direction: row;
+    gap:10px;
+    align-items: center;
+    justify-content:center ;
+}
+
+.check-rectangle-block .true{
+     width: 32px;
+    height: 32px;
+    border-style: solid;
+    border-color: #1b1f5c;
+    margin-top: 30px;
+ 
+}
+.check-rectangle-block .rectangle6{
+    background-color:#a6a8b6 ;
+    width:250px;
+    height: 32px;
+    border-radius:5px ;
+    margin-top: 30px;
+  
+}
+.check-rectangle{
+    display:flex;
+    flex-direction: column;
+    gap:5px;
+}
+
+.Top-main3 .elips{
+    width: 250px;
+    height: 40px;
+    margin-top: 50px;
+    border-radius: 30px ;
+    background-color:#a6a8b6 ;
+    margin-left:55px;
+}
+.Top-main3 .elips h3{
+    color:#180446;
+    padding: 5px;
+    text-align: center ;
+}
+
+
+@media (max-width:833px){
+    .rectangle-Personal-identification{
+        width: 500px;
+    }
+    .Square-chat{
+        width: 500px;
+    }
+    
+
+}
+@media (max-width:530px){
+    .rectangle-Personal-identification{
+        width: 300px;
+    }
+    .Square-chat{
+        width: 300px;
+    }
+    
+}
+@media (max-width:340px){
+    .check .check-rectangle{
+       
+        width:300px;
+        
+}
+.Top-main3 .elips button{
+    margin-left:40px;
+}
+}
+
+@media (max-width:368px){
+    .Top-main .Rectangle{
+        width: 250px;
+    }
+
+}
+
+@media (max-width:812px){
+    .Top-main2 .elips button{
+        margin-left:40px;
+    }
+
+}
+
+footer {
+    background-color:#8487b4;;
+    padding: 30px 0;
+   
+}
+
+
